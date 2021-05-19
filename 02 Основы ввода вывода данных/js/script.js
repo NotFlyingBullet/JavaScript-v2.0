@@ -12,7 +12,7 @@ button.onclick = function(){
   console.log("Работает");
   //console.log(inputIn.value);
 
-//Преобразование типов (строки в число) тк из инпута всегда приходит строка
+	//Преобразование типов (строки в число) тк из инпута всегда приходит строка
   let b = +inputIn.value;
   console.log(b);
   console.log(b+10); 
