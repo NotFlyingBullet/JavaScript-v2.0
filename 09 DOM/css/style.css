@@ -1,0 +1,27 @@
+:root{
+  box-sizing: border-box;
+}
+*,
+::before,
+::after{
+  box-sizing: inherit;
+}
+body * + *{
+  margin-top: 1.5em;
+}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+header h1, h2{
+  text-align: center;
+}
+p{
+  background-color:grey;
+}
+.orange{
+  background-color: orange;
+}
+.green{
+  color: green;
+}
